@@ -1,4 +1,4 @@
-# variables
+### variables ###
 
 my_variable = 'HOLAAA'
 my_int_variable = 1
@@ -50,20 +50,6 @@ print(person['skills'][0])  # JavaScript
 print(person['address']['street']) # Space street
 
 
-a = -3
-if a < 0:
-    print('A is a negative number')
-else:
-    print('A is a positive number')
-count=0
-while count < 5:
-    print(count)
-    count = count + 1
-
-numbers = [0, 1, 2, 3, 4, 5,8]
-for number in numbers: # number is temporary name to refer to the list's items, valid only inside this loop
-    print(number)  
-
 person = {
     'first_name':'Asabeneh',
     'last_name':'Yetayeh',
@@ -76,8 +62,5 @@ person = {
         'zipcode':'02210'
     }
 }
-for key in person:
-    print(key)
 
-for key, value in person.items():
-    print(key, value) 
+print (person)
