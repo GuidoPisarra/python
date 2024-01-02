@@ -57,6 +57,7 @@ print(reverse_languaje)
 ### funciones del sistema
 
 print(language.capitalize())
+
 print(language.upper())
 print(language.lower())
 print(language.count('t'))
@@ -64,3 +65,4 @@ print(language.isnumeric())
 print('1'.isnumeric())
 print(language.upper().isupper())
 print(language.lower().isupper())
+print(language.startswith('py'))
